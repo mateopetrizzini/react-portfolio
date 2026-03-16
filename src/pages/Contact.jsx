@@ -37,7 +37,7 @@ function Contact() {
     {
       name: "Discord",
       text: "Unete a mi servidor o contactame.",
-      link: "",
+      link: "https://discord.gg/EBpS8AB53R",
       icon: <FaDiscord/>
     }
   ];
