@@ -1,5 +1,6 @@
 import Card from '../components/Card/Card';
 import "./Home.css";
+import { Link } from 'react-router-dom';
 
 function Home() {
 
@@ -40,8 +41,13 @@ function Home() {
                 </p>
 
                 <div className="hero-buttons">
-                    <a href="/projects">Ver proyectos</a>
-                    <a href="/experiments">Experimentos</a>
+                    <Link to="/projects" className="hero-btn">
+                    Proyectos
+                    </Link>
+
+                    <Link to="/experiments" className="hero-btn">
+                    Experimentos
+                    </Link>
                 </div>
 
             </div>            
