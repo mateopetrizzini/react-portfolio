@@ -1,0 +1,16 @@
+.experiment-card{
+    background: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 10px;
+    color: white;
+    transition:0.25s
+}
+
+.experiment-card:hover{
+    transform: translateY(-6px);
+}
+
+.experiment-link{
+    text-decoration: none;
+    color: inherit;
+}
