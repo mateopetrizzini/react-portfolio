@@ -1,0 +1,35 @@
+.footer{
+
+    margin-top: 4rem;
+
+    padding: 2rem;
+
+    background: #111;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    color: white;
+}
+
+.footer-links{
+    display: flex;
+
+    gap: 1.5rem;
+
+    font-size: 1.4rem;
+}
+
+.footer-links a{
+
+    color: white;
+
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover{
+    color: #7b5cff;
+}
