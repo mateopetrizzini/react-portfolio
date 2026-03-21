@@ -27,7 +27,7 @@ function ProjectCard({project}) {
                 Github
             </a>
 
-            <a href={project.demo} target="_blank">
+            <a href={project.demo} target="_blank" rel="noopener noreferrer">
                 Demo
             </a>
             

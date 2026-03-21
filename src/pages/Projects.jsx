@@ -10,7 +10,7 @@ function Projects() {
             description: "App que muestra el clima usando una API.",
             tech: ["React", "API", "CSS"],
             github: "#",
-            demo: "#",
+            demo: "https://weather-app-sable-nu-30.vercel.app/",
             image: LogoPrueba
         },
         {
