@@ -4,10 +4,37 @@
     border-radius: 12px;
     color: white;
     transition: 0.25s;
+
+    position: relative;
 }
 
 .project-card:hover{
     transform: translateY(-6px);
+}
+
+.project-badge {
+
+    position: absolute;
+
+    top: 12px;
+
+    left: 12px;
+
+    background: #6366f1;
+
+    color: white;
+
+    font-size: 12px;
+
+    padding: 6px 10px;
+
+    border-radius: 999px;
+
+    font-weight: 600;
+
+    z-index: 2;
+
+    letter-spacing: 0.5px;
 }
 
 .tech{

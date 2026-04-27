@@ -17,6 +17,7 @@ function Projects() {
         },
         {
             title: "When2Meet",
+            badge: "IN PROGRESS",
             description: "Planner colaborativo con login, recordatorios y coordinación horaria.",
             tech: ["React", "Supabase", "Auth", "Notifications"],
             github: "https://github.com/mateopetrizzini/When2Meet",
@@ -24,7 +25,7 @@ function Projects() {
             image: NotesAppScreen
         },
         {
-            title: "Dashboard",
+            title: "Dashboard",            
             description: "Trabajando...",
             tech: ["React", "Grid"],
             github: "#",

@@ -6,7 +6,11 @@ function ProjectCard({project}) {
 
   return (
     <div className="project-card">
-
+        {project.badge && (
+            <span className="project-badge">
+                {project.badge}
+            </span>
+        )}
         <img src={project.image}
         alt={project.title}
         className="project-image"
