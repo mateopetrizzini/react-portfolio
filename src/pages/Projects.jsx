@@ -24,8 +24,8 @@ function Projects() {
             image: NotesAppScreen
         },
         {
-            title: "Portfolio v1",
-            description: "Mi primer portfolio personal.",
+            title: "Dashboard",
+            description: "Trabajando...",
             tech: ["React", "Grid"],
             github: "#",
             demo: "#",
