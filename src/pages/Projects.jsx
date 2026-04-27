@@ -1,6 +1,8 @@
 import "./Projects.css";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
-import LogoPrueba from "../assets/projects/LogoPrueba.png"
+import LogoPrueba from "../assets/projects/LogoPrueba.png";
+import WeatherAppScreen from "../assets/projects/WeatherAppScreen.png";
+import NotesAppScreen from "../assets/projects/NotesAppScreen.png";
 
 function Projects() {
 
@@ -11,15 +13,15 @@ function Projects() {
             tech: ["React", "API", "CSS"],
             github: "https://github.com/mateopetrizzini/weather-app",
             demo: "https://weather-app-sable-nu-30.vercel.app/",
-            image: LogoPrueba
+            image: WeatherAppScreen
         },
         {
-            title: "Task Manager",
-            description: "Aplicacion para gestionar tareas.",
-            tech: ["React", "LocalStorage"],
-            github: "#",
-            demo:"#",
-            image: LogoPrueba
+            title: "When2Meet",
+            description: "Planner colaborativo con login, recordatorios y coordinación horaria.",
+            tech: ["React", "Supabase", "Auth", "Notifications"],
+            github: "https://github.com/mateopetrizzini/When2Meet",
+            demo:"https://when2-meet.vercel.app/",
+            image: NotesAppScreen
         },
         {
             title: "Portfolio v1",
