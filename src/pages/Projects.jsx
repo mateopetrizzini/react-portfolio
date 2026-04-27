@@ -1,8 +1,8 @@
 import "./Projects.css";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
 import LogoPrueba from "../assets/projects/LogoPrueba.png";
-import WeatherAppScreen from "../assets/projects/WeatherAppScreen.png";
-import NotesAppScreen from "../assets/projects/NotesAppScreen.png";
+import WeatherAppScreen from "../assets/projects/WeatherAppScreen.PNG";
+import NotesAppScreen from "../assets/projects/NotesAppScreen.PNG";
 
 function Projects() {
 
