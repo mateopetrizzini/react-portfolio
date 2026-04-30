@@ -1,6 +1,7 @@
 import Card from '../components/Card/Card';
 import "./Home.css";
 import { Link } from 'react-router-dom';
+import Reveal from '../components/Reveal/Reveal';
 
 function Home() {
 
@@ -17,7 +18,7 @@ function Home() {
   return (
     
         <>
-        
+        <Reveal>
         <section className="hero">
 
             <div className="hero-glow"></div>
@@ -53,7 +54,9 @@ function Home() {
             </div>
 
         </section>
+        </Reveal>
 
+        <Reveal delay={100}>
         <section className="home-section">
             <div className="section-box">
 
@@ -67,7 +70,9 @@ function Home() {
 
             </div>
         </section>
+        </Reveal>
 
+        <Reveal delay={180}>
         <section className="home-section">
             <div className="section-box">
 
@@ -80,7 +85,9 @@ function Home() {
                 </div>
             </div>
         </section>
+        </Reveal>
 
+        <Reveal delay={260}>
         <section className="home-section">
             <div className="section-box featured-box">
                 <h2>Featured Project</h2>
@@ -97,7 +104,9 @@ function Home() {
                 </Link>
             </div>
         </section>
+        </Reveal>
 
+        <Reveal delay={340}>
         <section className="home-section">
             <div className="section-box">
                 <h2>Experiments</h2>
@@ -112,7 +121,9 @@ function Home() {
                 </Link>
             </div>
         </section>
+        </Reveal>
 
+        <Reveal delay={420}>
         <section className="cta-section">
             <h2>Interested in working together?</h2>
 
@@ -124,6 +135,7 @@ function Home() {
                     Get In Touch
             </Link>
         </section>
+        </Reveal>
         </>
   );
 }

@@ -3,6 +3,7 @@ import ProjectCard from "../components/ProjectCard/ProjectCard";
 import LogoPrueba from "../assets/projects/LogoPrueba.png";
 import WeatherAppScreen from "../assets/projects/WeatherAppScreen.PNG";
 import NotesAppScreen from "../assets/projects/NotesAppScreen.PNG";
+import Reveal from "../components/Reveal/Reveal";
 
 function Projects() {
 
@@ -35,16 +36,33 @@ function Projects() {
     ];
 
   return (
-    <section className="projects">
-        <h1>Proyectos</h1>
+    <section className="projects-page">
+
+        <div className="projects-hero">
+
+            <span>Portfolio</span>
+            <h1>Selected Projects</h1>
+
+            <p>
+                Real applications built with focus on design,
+                funcionality and user experience.
+            </p>
+        </div>
+
+
+        <div className="projects-filters">
+            <button className="active">All</button>
+            <button>React</button>
+            <button>Full Stack</button>
+            <button>UI</button>
+        </div>
 
         <div className="projects-grid">
 
             {projects.map((project, index)=>(
-                <ProjectCard
-                key={index}
-                project={project}
-                />
+                <Reveal key={index} delay={index * 120}>
+                    <ProjectCard project={project}/>
+                </Reveal>
             ))}
 
         </div>
